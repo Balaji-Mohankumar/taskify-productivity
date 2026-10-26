@@ -1,0 +1,25 @@
+# Local Python environments
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+
+# Local runtime data and caches
+.local-runtime/
+**/.local-runtime/
+
+# Local secrets and environment-specific configuration
+.env
+.env.*
+!.env.example
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+
+# .NET build outputs
+**/bin/
+**/obj/
+.vs/
+
+# Logs
+*.log
